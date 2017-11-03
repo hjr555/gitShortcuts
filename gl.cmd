@@ -1,1 +1,1 @@
-@git log --format="%%C(Cyan bold)[%%Cred%%h%%Creset%%C(Cyan bold)]%%Creset %%C(Green bold)%%an%%Creset - %%C(White bold)%%s%%Creset (%%C(Magenta)%%ar%%Creset)" --graph --max-count=20
+@git log --format="%%C(cyan bold)[%%C(red dim)%%h%%C(reset)%%C(cyan bold)]%%C(reset) %%C(green bold)%%an%%C(reset) - %%C(white bold)%%s%%C(reset) (%%C(magenta)%%ar%%C(reset)" --graph --max-count=20 --decorate=full
