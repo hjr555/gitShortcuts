@@ -1,2 +1,2 @@
 @git branch
-@git log --format="%%C(cyan bold)[%%C(red bold)%%h%%C(reset)%%C(cyan bold)]%%C(reset) %%C(green bold)%%an%%C(reset) - %%C(white bold)%%s%%C(reset) (%%C(magenta bold)%%ar%%C(reset))" --graph --max-count=5 --decorate=full --all
+@git log --format="%%C(cyan bold)[%%C(red bold)%%h%%C(reset)%%C(cyan bold)]%%C(reset) %%C(green bold)%%an%%C(reset) - %%C(white bold)%%s%%C(reset) (%%C(magenta bold)%%ar%%C(reset)) %%C(yellow bold)%%d%%C(reset)" --graph --max-count=5 --decorate=full --all --branches --abbrev-commit
